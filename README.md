@@ -30,3 +30,5 @@ docker run --rm -it -e RENOVATE_TOKEN -v /tmp:/tmp renovate/renovate:slim renova
 ```sh
 docker run --rm -it -v $PWD/config.js:/usr/src/app/config.js -e LOG_LEVEL=debug renovate/renovate:slim renovate-config-validator
 ```
+
+т
